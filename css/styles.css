@@ -1,0 +1,55 @@
+@keyframes initMenu {
+  0% {
+    opacity: 0;
+    transform: translateX(-300px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+.t .btnArea__btn {
+  margin: 20px;
+  width: 120px;
+  outline: none;
+  background-color: #ffffff;
+  outline-color: none;
+  outline-width: none;
+  outline-style: none;
+  border-radius: 5px;
+  animation: initMenu 1s forwards;
+  margin-left: 50px;
+}
+
+.t .btnArea__btn:hover {
+  background-color: #0b0b0b;
+  color: #ffffff;
+  font-weight: 600;
+  font-family: "Nunito", sans-serif;
+}
+.tts {
+  border-bottom: 1px solid black;
+}
+
+.tts .col1 {
+  margin: 20px;
+  width: 120px;
+  outline: none;
+  background-color: #ffffff;
+  outline-color: none;
+  outline-width: none;
+  outline-style: none;
+  border-radius: 5px;
+  animation: 1s forwards;
+
+  margin-left: 50px;
+  border-bottom: black;
+}
+
+.tts .col1:hover {
+  background-color: #0b0b0b;
+  color: #ffffff;
+  font-size: 600;
+  font-family: "Nunito", sans-serif;
+}
